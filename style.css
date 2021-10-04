@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+.hg-conteudo>main {
+    background-color: black;
+  
+}
+
+body {
+    
+    max-width: 1500px;
+    margin: 0 auto;
+    flex-flow: column;
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(247, 77, 106);
+}
+
+.hg-conteudo {
+   
+    
+    flex: 1;
+    display: flex;
+    
+}
+
+.hg-conteudo>nav {
+    order: -1;
+
+}
+
+.hg-conteudo>main {
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+   
+   
+}
+
+@media (min-width: 768px) {
+    .hg-conteudo {
+        flex-flow: row;
+    }
+
+    .hg-conteudo>aside,
+    .hg-conteudo>nav {
+        flex: 0 0 200px;
+    }
+}
+
+header {
+    padding: 20px 20px;
+    background-color: rgb(247, 77, 106);
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: monospace;
+    color: white;
+    font-family: 'Birthstone', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 28px;
+    font-family:  'Birthstone' , cursive;
+    color: white;
+ 
+    
+}
+
+aside {
+    background-color: rgb(247, 77, 106);
+    font-family:  'Birthstone' , cursive;
+    font-size: 32px;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(247, 77, 106);
+   
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 18px;
+    color: white;
+    font-size: 28px;
+    font-family:  'Birthstone' , cursive;
+ 
+}
+
+nav a:hover {
+    text-decoration: none;
+    padding: 10px 10px;
+    color: black;
+    font-size: 32px;
+    background-color: white;
+    font-family:  'Birthstone' , cursive;
+  
+}
